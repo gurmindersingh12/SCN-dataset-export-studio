@@ -16,3 +16,14 @@ A lightweight local web application for converting YOLO object detection dataset
 - Dataset validation and error detection
 - Batch export options
 - Extended visualization tools for annotation inspection
+
+## Repository Structure
+
+tools/
+Scripts for dataset conversion and export utilities.
+
+webapp/backend/
+FastAPI backend for dataset export workflows.
+
+webapp/frontend/
+Simple browser interface for selecting export formats and previewing results.
